@@ -18,7 +18,7 @@ WORKDIR /app
 COPY --from=build /app/target/spring-boot-app-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the application port
-EXPOSE 8000
+EXPOSE 10000123330
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
